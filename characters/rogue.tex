@@ -1,5 +1,8 @@
 \documentclass[letterpaper,openany,oneside,twocolumn]{book}
 
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+
 \usepackage{fontspec}
 \usepackage[justified]{dnd}
 \usepackage{ifthen}
@@ -9,6 +12,7 @@
 
 \usepackage{dndtemplate}
 
+\newfontfamily\cjkfont{DengXian}[BoldFont=DengXian Bold,]
 
 \setlength\oddsidemargin{\dimexpr(\paperwidth-\textwidth)/2 - 1in\relax}
 \setlength\evensidemargin{\oddsidemargin}
