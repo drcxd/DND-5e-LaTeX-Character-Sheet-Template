@@ -1,0 +1,46 @@
+\documentclass[letterpaper,openany,oneside,twocolumn]{book}
+
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+
+\usepackage{fontspec}
+\usepackage[justified]{dnd}
+\usepackage{ifthen}
+\usepackage{pstricks}
+
+\usepackage[UKenglish]{babel}
+
+\usepackage{dndtemplate}
+
+\newfontfamily\cjkfont{DengXian}[BoldFont=DengXian Bold,]
+
+\setlength\oddsidemargin{\dimexpr(\paperwidth-\textwidth)/2 - 1in\relax}
+\setlength\evensidemargin{\oddsidemargin}
+
+\begin{document}
+	\newgeometry{left=0cm,right=0cm,top=0cm,bottom=0cm}
+	\onecolumn
+
+
+	% CHARACTER PAGE
+	\include{characters/fighter1/general}
+	\rendercharactersheet
+
+	% BACKSTORY PAGE
+	%% \include{characters/rogue/background}
+	%% \renderbackgroundsheet
+
+	% SPELLCASTING PAGES
+	%% \include{characters/unnamed/bard}
+	%% \renderspellsheet
+
+	%% \include{characters/unnamed/druid}
+	%% \renderspellsheet
+
+	%% \include{characters/unnamed/sorcerer}
+	%% \renderspellsheet
+
+	\restoregeometry
+	\twocolumn
+
+\end{document}
