@@ -1,0 +1,135 @@
+\documentclass[letterpaper,twocolumn,openany,nodeprecatedcode]{dndbook}
+
+%% \usepackage[heading=true]{ctex}
+%% \usepackage[english]{babel}
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\setotherlanguage{chinese}
+\newfontfamily\chinesefont{FangSong}
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+
+\usepackage[utf8]{inputenc}
+\usepackage[singlelinecheck=false]{caption}
+\usepackage{lipsum}
+\usepackage{listings}
+\usepackage{shortvrb}
+\usepackage{stfloats}
+
+\captionsetup[table]{labelformat=empty,font={sf,sc,bf,},skip=0pt}
+
+\MakeShortVerb{|}
+
+\lstset{%
+  basicstyle=\ttfamily,
+  language=[LaTeX]{TeX},
+  breaklines=true,
+}
+
+\begin{document}
+
+\tableofcontents
+
+\chapter{GOBLIN ARROWS}
+
+\begin{DndReadAloud}
+  \begin{chinese}
+    在 Neverwinter, 一个叫作 Gundren Rockseeker 的矮人请你们把一货车物资送到位于 Phandalin 的破败落后的定居点，只需要从城里向东南方走个几天就能抵达。很显然， Gundren 对此行很激动，并对他的目的三缄其口，只说他和他的兄弟们搞了一个“大新闻”，并且，他会给每个护送他的补给安全到达 Barthen's Provisions 的人十枚金币，那是一个位于 Phandalin 的贸易站。他会和一个叫作 Sildar Hallwinter 的护卫骑马先走一步，声称他需要先过去打理生意。
+
+    你已经离开 Neverwinter, 沿着 High Road 向南走了几天，刚刚转向东方，走上了 Triboar Trail. 目前为止，你还没有遇到任何麻烦，但是这片区域可能有危险。听说土匪和其它一些不法之徒常常埋伏在这条路上。
+  \end{chinese}
+\end{DndReadAloud}
+
+\section{GOBLIN AMBUSH}
+
+\begin{DndReadAloud}
+  \begin{chinese}
+    你们已经在 Triboar Trail 上走了半天。当你们走到一个转弯处，你们发现了两匹死去的马的尸体倒在前方 50 英尺处，挡住了去路。每匹马的尸体上都插着数支羽箭。在这段路边，森林靠得很近，路的两边都是陡峭的路堤和茂密的灌木从。
+  \end{chinese}
+\end{DndReadAloud}
+
+\begin{DndReadAloud}
+  \begin{chinese}
+    马鞍袋已经被搜刮一空。附近还有一个空的地图匣被扔在地上。
+  \end{chinese}
+\end{DndReadAloud}
+
+\section{CRAGMAW HIDEOUT}
+
+\DndArea{CAVE MOUSE}
+\begin{DndReadAloud}
+  \begin{chinese}
+    沿着哥布林的小路，在距埋伏地点5英里的山脚下，你们发现了一个大山洞。一条浅浅的小溪从洞口流出，被茂密的蔷薇丛掩映着。在溪流的右侧，一条干燥狭窄的小路通向洞口。
+  \end{chinese}
+\end{DndReadAloud}
+
+\DndArea{GOBLIN BLIND}
+\begin{DndReadAloud}
+  \begin{chinese}
+    在从洞口流出的小溪的东侧，蔷薇丛中的一小片区域被挖空，形成了一个观察点。厚木板压平了植被，同时给看守提供了卧倒隐蔽并观察这片区域的空间。两只哥布林正潜伏在这里！
+  \end{chinese}
+\end{DndReadAloud}
+
+\DndArea{KENNEL}
+\begin{DndReadAloud}
+  \begin{chinese}
+    刚进入洞穴，一些崎岖不平的石阶通向通道东侧的一间石室。在石室的另一端，洞穴逐渐变窄，直至形成一条陡陗的沟壑；空气中充满了动物的臭味。野蛮的咆哮声和锁链的叮当声敲击着你们的耳膜，两只狼被拴在石室的入口处。每只狼的锁链被一根铁棍钉在石笋的底部。
+  \end{chinese}
+\end{DndReadAloud}
+
+\DndArea{STEEP PASSAGE}
+\begin{DndReadAloud}
+  \begin{chinese}
+    来自洞口的主通道陡峭地向上攀延，在它的西侧，湍急的溪水奔涌而下。在阴影中，溪流另一侧的一条岔路通向西侧。
+  \end{chinese}
+\end{DndReadAloud}
+
+\begin{DndReadAloud}
+  \begin{chinese}
+    在北侧洞顶的阴影下，你们可以看到一座桥的轮廓，它横架在你们面前的通道上方，由木头和绳子构成，看起来摇摇欲坠的。那是另一条距地面20英尺的通道，和面前的通道交汇。
+  \end{chinese}
+\end{DndReadAloud}
+
+\DndArea{OVERPASS}
+\begin{DndReadAloud}
+  \begin{chinese}
+    有溪流的通道继续向上延伸，越过另一些石头台阶，向东侧弯曲。你们听到瀑布的声音从远方某处的一个更大的洞穴传来。
+  \end{chinese}
+\end{DndReadAloud}
+
+\begin{DndReadAloud}
+  \begin{chinese}
+    一座摇摇欲坠的桥横跨通道，连接着位于溪流上方20英尺处的两条隧道。
+  \end{chinese}
+\end{DndReadAloud}
+
+\begin{DndReadAloud}
+  \begin{chinese}
+    通道里突然充满了强劲有力的咆哮声，同时大量湍急的水流从上方倾泻而下！
+  \end{chinese}
+\end{DndReadAloud}
+
+\DndArea{GOBLIN DEN}
+\begin{DndReadAloud}
+  \begin{chinese}
+    这座大洞穴被一个十英尺高的悬崖一分为二。低的部分和高的部分通过陡陗的天然台阶相连。空气中弥漫着烹饪用火的灰烬，以及潦草硬制的皮甲和肮脏哥布林的臭味。
+  \end{chinese}
+\end{DndReadAloud}
+
+\DndArea{TWIN POOL CAVE}
+\begin{DndReadAloud}
+  \begin{chinese}
+    这个洞穴的一半被两个大蓄水池占据。一道窄窄的瀑布从水池的东侧流入，水从洞穴的西侧溢出，形成了流出洞口的溪流。低矮的石墙起到水坝的作用，将水储蓄在池中。洞穴的南侧有一个宽阔的出口，而西侧有两着狭窄的通道。瀑布的声音在洞里回响，听见其它声音变得困难。
+  \end{chinese}
+\end{DndReadAloud}
+
+\DndArea{KLARG'S CAVE}
+\begin{DndReadAloud}
+  \begin{chinese}
+    在这个大洞的南端，堆放着各式箱子和袋了，其中装满了抢来的补给品。西侧，地板向下倾向一个狭窄的开口，另一侧黑漆漆的。在自然形成的石阶下方，一个更大的出口通向北侧，落下的水声形成的咆哮在前方回荡。在洞穴的中央，一个由炭组成的大火堆中在静静地燃烧着。
+  \end{chinese}
+\end{DndReadAloud}
+
+\end{document}
